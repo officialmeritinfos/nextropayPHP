@@ -1,0 +1,22 @@
+{
+    "name": "officialmeritinfos/nextropay-php",
+    "description": "Official Library for Nextropay",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Officialmeritinfos\\NextropayPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Erastus",
+            "email": "meritinfosllc@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
