@@ -1,1 +1,1 @@
-# nextropayPHP
+# Nextropay PHP
