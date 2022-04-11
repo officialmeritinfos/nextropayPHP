@@ -14,7 +14,7 @@
             "email": "meritinfosllc@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.3|^8.0",
         "guzzlehttp/guzzle": "^7.0.1"
