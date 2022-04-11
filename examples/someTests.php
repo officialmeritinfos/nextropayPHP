@@ -3,12 +3,19 @@
 require_once('../vendor/autoload.php');
 use Officialmeritinfos\NextropayPhp\NextropayAPI;
 
-$pubKey = 'CBX_PUB_16464360112130893623';
-$secKey = 'CBX_SEC_1646436011210565308';
+$pubKey = '';
+$secKey = '';
 $env = 'TEST';
 
+$data=[
+    "name"=>"Meritinfos Testnet",
+    "description"=>"Buxiscrow is you gateway to secured financial transaction",
+    "businessType"=>"1",
+    "trustedIps"=>"",
+    "pin"=>"472988",
+    "whoPay"=>"2"
+];
 
 $client = new NextropayAPI($pubKey,$env);
-$response = $client->GetBusiness();
-// $responses = json_decode($response->getBody(),1);
-// print_r($responses);
+$response = $client->UpdateBusiness($data);
+echo $response;
