@@ -1,4 +1,4 @@
-_# Nextropay PHP API Wrapper.
+# Nextropay PHP API Wrapper.
 ## Requirements
 It's recommended to use a newer version of PHP. This library was written in a PHP v7.3+ environment. 
 The minimum version we've tested the code against is PHP v 7.3+. Our PHP version compatibility test used a combination of
